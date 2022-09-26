@@ -118,6 +118,7 @@ li {
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .search-section .wrapper {
@@ -163,7 +164,7 @@ li {
 }
 
 .users {
-  height: 400px;
+  max-height: 400px;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
@@ -177,7 +178,10 @@ li {
 
 .user-img img { border-radius: 50px; }
 
-.user-info { padding: 0 5%; line-height: 30px; }
+.user-info { 
+  padding: 0 5%;
+  line-height: 30px;
+}
 
 .user-name {
   font-size: 17px;
@@ -185,6 +189,8 @@ li {
 }
 
 .user-location { font-size: 13px; }
+
+.hide-list { display: none; }
 
 /*=================================
   main styling ends here
