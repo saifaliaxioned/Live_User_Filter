@@ -82,6 +82,12 @@ sub { bottom: -.25em; }
 .cf { *zoom: 1; }
 
 /*for all*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   box-sizing: border-box;
   font-family: sans-serif;
@@ -103,52 +109,83 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
+.search-section {
+  padding: 60px 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
 
+.search-section .wrapper {
+  width :22.2%
+}
 
+.search-card {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, .18);
+  overflow: hidden;
+}
 
+.search-area {
+  padding: 30px 18px 20px 18px;
+  background: rgb(61,87,219);
+  color: rgb(255, 255, 255);
+}
 
+.heading {
+  padding: 5px 0;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 
+.info {
+  font-size: 13px;
+  opacity: .8;
+}
 
+.input-area { padding: 20px 2% 10px 0; }
 
+.input-area input {
+  width: 100%;
+  padding: 11px 15px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background: rgb(43,61,153);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.users {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.user-list {
+  padding: 20px 18px 20px 18px;
+  border-bottom: 1px solid rgba(187, 183, 183, .3);
+  display: flex;
+}
+
+.user-img img { border-radius: 50px; }
+
+.user-info { padding: 0 5%; line-height: 30px; }
+
+.user-name {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.user-location { font-size: 13px; }
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
