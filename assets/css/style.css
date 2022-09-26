@@ -183,7 +183,11 @@ li {
   text-transform: capitalize;
 }
 
-.user-img img { border-radius: 50px; }
+.user-img img { 
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+ }
 
 .user-info { 
   padding: 0 5%;
@@ -195,7 +199,7 @@ li {
   font-weight: bold;
 }
 
-.user-location { font-size: 13px; }
+.user-location { font-size: 12px; }
 
 .hide-list { display: none; }
 
