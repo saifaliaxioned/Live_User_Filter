@@ -167,13 +167,20 @@ li {
   max-height: 400px;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .user-list {
   padding: 20px 18px 20px 18px;
   border-bottom: 1px solid rgba(187, 183, 183, .3);
   display: flex;
+}
+
+.user-list h3 {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .user-img img { border-radius: 50px; }
